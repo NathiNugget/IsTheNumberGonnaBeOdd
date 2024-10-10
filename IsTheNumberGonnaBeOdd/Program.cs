@@ -23,7 +23,8 @@ internal class Program
 		Console.WriteLine("Please type a number below 2843 to find out if it's odd.\nA number above this always returns true btw.");
         int i = int.Parse(Console.ReadLine()); 
         Console.WriteLine(IsOdd(i));
-
+		Console.WriteLine("Press any button to exit program");
+		Console.ReadKey(); 
 
 
     }
